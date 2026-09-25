@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoNovo - Soluções Sustentáveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EcoNovo</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+    <img src="https://observatorio3setor.org.br/wp-content/uploads/2022/08/AdobeStock_505564014_Preview-e1661529353259.jpeg" alt="Lâmpada com planta sustentável" class="hero-img">
+    <h1>Transforme o Futuro com Sustentabilidade</h1>
+    <p>Descubra como a nossa tecnologia pode ajudar a reduzir a pegada ecológica da sua empresa de forma simples e eficaz.</p>
+    <button id="btn-interativo" class="cta-button">Começar Agora</button>
+    <p id="mensagem-interativa" class="hidden"></p>
+</section>
+
+
+        <section id="recursos" class="features">
+            <h2>Nossos Recursos</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Monitorização em Tempo Real</h3>
+                    <p>Acompanhe os dados de consumo energético instantaneamente.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Relatórios Automatizados</h3>
+                    <p>Gere relatórios detalhados para cumprir as metas ambientais.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Suporte Especializado</h3>
+                    <p>Equipa dedicada pronta a ajudar na otimização dos processos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2>Fale Connosco</h2>
+            <form id="form-contacto">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="O seu nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="O seu e-mail" required>
+                
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+            <p id="feedback-envio" class="success-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoNovo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
